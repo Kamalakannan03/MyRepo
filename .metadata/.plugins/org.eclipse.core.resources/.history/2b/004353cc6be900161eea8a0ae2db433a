@@ -1,0 +1,7 @@
+package com.application.service;
+
+public interface ServiceProvider {
+	
+	public void createProduct();
+
+}

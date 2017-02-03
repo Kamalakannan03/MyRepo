@@ -1,0 +1,5 @@
+ackage com.application.model;
+
+public @interface entity {
+
+}

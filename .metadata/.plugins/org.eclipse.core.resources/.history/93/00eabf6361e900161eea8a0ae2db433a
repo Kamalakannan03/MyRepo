@@ -1,0 +1,5 @@
+ackage com.application.service;
+
+public class ServiceProvider {
+
+}

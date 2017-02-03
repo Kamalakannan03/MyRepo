@@ -1,0 +1,22 @@
+<form class="form-horizontal">
+  <fieldset class="align-center" >
+
+    <legend>Form Name</legend>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Product Id</label>
+      <div class="col-md-4">
+        <input id="Input" name="textinput" type="text" placeholder="Prod-ID" [(ngModel)]="api.productDetails.productId" class="form-control input-md">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Product Name</label>
+      <div class="col-md-4">
+        <input id="textinput" name="textinput" type="text" placeholder="Prod-Name" [(ngModel)]="api.productDetails.productName" class="form-control input-md">
+      </div>
+    </div>
+    <div>
+      <button class="btn col-md-6 insert" id="submit" (click)="api.insertProduct()">Submit</button>
+    </div>
+  </fieldset>
+</form>
